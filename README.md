@@ -232,9 +232,9 @@ after:
 We can do this by adding some "`<<`" promotion prefixes to selected dict keys.
 A promotion prefix is "`<<`" followed by an optional modifier:
 
-* "`<<`" &mdash; (no modifier) promoted matching keys are replaced by promoted keys.
-* "`<<|`" &mdash; promoted matching keys are deep merged, lists are joined and flattened.
-* "`<<-`" &mdash; promoted matching keys are deep merged, lists are joined, flattened, and uniqified.
+* "`<<`" &mdash; (no modifier) pre-existing matching keys are replaced by promoted keys.
+* "`<<|`" &mdash; pre-existing and promoted matching keys are deep merged, lists are joined and flattened.
+* "`<<-`" &mdash; pre-existing and promoted matching keys are deep merged, lists are joined, flattened, and uniqified.
 
 Here's our example again with promotion prefixes applied to the "`owner`" keys:
 
