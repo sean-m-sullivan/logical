@@ -1,4 +1,4 @@
-# Ansible Collection - utoddl.logical - test
+# Ansible Collection - utoddl.logical
 
 The *logical filter* adds some "`if`" / "`elif`" / "`else`" logical capabilities to your Ansible data.
 (Also "`and`", "`or`", "`xor`", "`not`", and data promotions; see below.)
